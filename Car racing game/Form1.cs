@@ -24,7 +24,7 @@ namespace Car_racing_game
             obstacle2.Top += 2;
             obstacle3.Top += 2;
 
-
+            // if the car touches the top and bottom then timer is stopped //
             if(car.Top <=0 || car.Top>= 470)
             {
                 gameTimer.Stop();
